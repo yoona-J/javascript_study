@@ -1,3 +1,5 @@
+//팩토리얼 계산하기
+
 function fact (n) {
     if (n <= 1) return n;
     return n*fact(n-1)
